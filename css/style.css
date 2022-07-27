@@ -123,6 +123,21 @@ z-index: -1;
 .bg video{
     height:  100%;
 }
-.nav__lang{
-    j
+.nav__links{
+    display: flex;
+    gap: 45px;
+}
+.order{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    color: black;
+    background: #FED700;
+    padding: 16px 24px ;
+    text-align: center;
+    border-radius: 8px;
+}
+header .container{
+    text-align: center;
+    
 }
