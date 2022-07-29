@@ -38,6 +38,7 @@ nav {
     height: 2px;
     display: inline-block;
     position: absolute;
+    transition: 0.5s;
 }
 
 .hamburger span:nth-child(1) {
@@ -51,7 +52,18 @@ nav {
 .hamburger span:nth-child(3) {
     top: 20px;
 }
-
+.hamburger_active span:nth-child(1){
+    top: 10px ;
+    transform: rotate(45deg);
+}
+.hamburger_active span:nth-child(2){
+opacity: 0;
+}
+.hamburger_active span:nth-child(3){
+    top: 10px ;
+    transform: rotate(-45deg);
+}
+   
 .nav__elements {
     display: flex;
     justify-content: space-between;
@@ -128,7 +140,7 @@ z-index: -1;
     gap: 45px;
 }
 .order{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 25px;
     color: black;
@@ -136,6 +148,12 @@ z-index: -1;
     padding: 16px 24px ;
     text-align: center;
     border-radius: 8px;
+    transition: 0.5s;
+}
+.order:hover{
+    background-color: black;
+    color: #FED700;
+    
 }
 header .container{
     text-align: center;
