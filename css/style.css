@@ -194,3 +194,16 @@ header .container {
     text-align: center;
 
 }
+.aboutmi{
+    padding: 40px 0px;
+}
+h2{
+    font-size: 36px ;
+    line-height: 100%;
+    text-align: center;
+}
+.aboutmi__elements{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
