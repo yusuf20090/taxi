@@ -201,9 +201,23 @@ h2{
     font-size: 36px ;
     line-height: 100%;
     text-align: center;
+    margin-bottom: 32px ;
 }
 .aboutmi__elements{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
+    flex-wrap: wrap;
+}
+.aboutmi__elements p{
+    font-size: 16px;
+    line-height: 150%;
+    min-width: 280px;
+    display: inline-block;
+    width: 55%;
+}
+.aboutmi__elements img{
+    width: 35%;
+    min-width: 280px;
 }
