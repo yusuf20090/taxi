@@ -1,0 +1,9 @@
+@media(max-width: 500px) {
+    .aboutmi__elements img {
+        width: 100%;
+    }
+
+    .aboutmi__elements p {
+        width: 100%;
+    }
+}

@@ -220,4 +220,5 @@ h2{
 .aboutmi__elements img{
     width: 35%;
     min-width: 280px;
+    border-radius: 10px;
 }
