@@ -222,3 +222,12 @@ h2{
     min-width: 280px;
     border-radius: 10px;
 }
+.ways__list{
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-slide img{
+width:  100%;
+}
