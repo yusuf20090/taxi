@@ -94,7 +94,7 @@ nav {
 header {
     background-color: black;
     height: 100vh;
-    background-image: url(../img/bg.png);
+    background-image: url(../img/header-bg.png);
     background-size: cover;
     background-position: center;
     backdrop-filter: opacity(60%);
@@ -119,6 +119,7 @@ h1 {
 
 body {
     font-family: 'Bellota Text', cursive;
+    overflow-x: hidden;
 }
 
 .header__links a {
@@ -230,4 +231,27 @@ h2{
 }
 .swiper-slide img{
 width:  100%;
+}
+section{
+    padding: 40px 0px;
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 40px 0px;
+}
+.footer__elements{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+}
+.footer__elements a{
+    color: #FED700;
+    
+}
+.footer__logo{
+    font-size: 24px;
 }
