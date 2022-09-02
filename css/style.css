@@ -289,3 +289,6 @@ footer {
     font-weight: 900;
 
 }
+.galery__swiper .swiper-slide img{
+border-radius: 10px;
+}
