@@ -289,6 +289,57 @@ footer {
     font-weight: 900;
 
 }
-.galery__swiper .swiper-slide img{
-border-radius: 10px;
+
+.galery__swiper .swiper-slide img {
+    border-radius: 10px;
+}
+
+.info p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #000000;
+}
+
+.arrow {
+    font-size: 50px;
+    color: #FED700;
+    font-family: 'Font Awesome 6 Free';
+    font-weight: bold;
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    animation: arrow 1.5s infinite;
+}
+
+@keyframes arrow {
+    0% {
+        transform: translate(-50%, 0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, 150%);
+        opacity: 0;
+    }
+}
+
+.tarif p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 16px;
+}
+
+.tarif span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    background-color: #000000;
+    color: #FED700;
+      border-radius: 6px;
+      display: inline-block;
+      padding: 3px 6px;
 }
