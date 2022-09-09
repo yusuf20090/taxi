@@ -332,14 +332,36 @@ footer {
     line-height: 25px;
     margin-bottom: 16px;
 }
-
+.tarif p:nth-child(4){
+    margin-bottom: 48px;
+}
 .tarif span {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     background-color: #000000;
     color: #FED700;
-      border-radius: 6px;
-      display: inline-block;
-      padding: 3px 6px;
+    border-radius: 6px;
+    display: inline-block;
+    padding: 3px 6px;
+}
+
+.massage {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FED700;
+    background-color: #000000;
+    padding: 17px 20px;
+    border-radius: 8px;
+    margin: auto;
+    display: block;
+    max-width: 300px;
+    text-align: center;
+    transition: 0.5s;
+}
+.massage:hover{
+    background-color: #FED700;
+    color: #000;
+
 }
