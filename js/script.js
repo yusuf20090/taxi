@@ -32,5 +32,6 @@ const swiper = new Swiper('.ways__list', {
             slidesPerView: 6.5,
             spaceBetween: 40
         }
+        
     }
 });

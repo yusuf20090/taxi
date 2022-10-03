@@ -126,6 +126,10 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    overflow: hidden;
+}
+
 .header__links a {
     display: inline-block;
     font-weight: 400;
@@ -290,6 +294,11 @@ footer {
 
 }
 
+.galery__swiper {
+    width: 80%;
+    overflow: visible;
+}
+
 .galery__swiper .swiper-slide img {
     border-radius: 10px;
 }
@@ -325,16 +334,20 @@ footer {
         opacity: 0;
     }
 }
-
+.tarif{
+    text-align: center;
+}
 .tarif p {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
     margin-bottom: 16px;
 }
-.tarif p:nth-child(4){
+
+.tarif p:nth-child(4) {
     margin-bottom: 48px;
 }
+
 .tarif span {
     font-weight: 700;
     font-size: 20px;
@@ -360,7 +373,8 @@ footer {
     text-align: center;
     transition: 0.5s;
 }
-.massage:hover{
+
+.massage:hover {
     background-color: #FED700;
     color: #000;
 
