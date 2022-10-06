@@ -130,6 +130,8 @@ h1 {
 body {
     font-family: 'Bellota Text', cursive;
     overflow-x: hidden;
+    user-select: none;
+    user-zoom: none;
 }
 
 section {
@@ -250,6 +252,7 @@ h2 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
+    padding-left: 32px;
 }
 
 .swiper-slide img {
@@ -274,6 +277,7 @@ footer {
     gap: 16px;
     align-items: center;
 }
+
 
 .footer__elements a {
     color: #FED700;
@@ -384,4 +388,11 @@ footer {
     background-color: #FED700;
     color: #000;
 
+}
+.footer__elements p{
+    color: white;
+    
+}
+.heder_antalya{
+    background-image: url(../img/antalya/antalya.png);
 }
