@@ -7,7 +7,8 @@ nav {
     width: 100%;
     z-index: 10;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -23,11 +24,29 @@ html{
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.901);
     z-index: 0;
     left: 0;
     top: -100%;
     transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.nav__curtuan .nav__logo{
+    width: 15vh;
+    height: 15vh;
+}
+.nav__curtuan h2{
+    font-size: 20vh;
+
+}
+.nav__curtuan a{
+    font-size: 5vh;
+    color: #FED700;
+    text-decoration: underline;
 }
 
 .nav__curtuan_show {
@@ -109,7 +128,8 @@ header {
 header.heder_alanya {
     background-image: url(../img/alanya\ header.png);
 }
-header.heder_belek{
+
+header.heder_belek {
     background-image: url(../img/belek/belek.png);
 }
 
@@ -132,6 +152,8 @@ body {
     overflow-x: hidden;
     user-select: none;
     user-zoom: none;
+    background-color: rgb(20, 20, 20);
+    color: rgb(233, 234, 235);
 }
 
 section {
@@ -317,9 +339,9 @@ footer {
     font-weight: 300;
     font-size: 18px;
     line-height: 23px;
-
-    color: #000000;
+    color: rgb(233, 234, 235);
 }
+
 
 .arrow {
     font-size: 50px;
@@ -344,9 +366,11 @@ footer {
         opacity: 0;
     }
 }
-.tarif{
+
+.tarif {
     text-align: center;
 }
+
 .tarif p {
     font-weight: 700;
     font-size: 20px;
@@ -389,16 +413,24 @@ footer {
     color: #000;
 
 }
-.footer__elements p{
+
+.footer__elements p {
     color: white;
-    
+
 }
-.heder_antalya{
+
+.heder_antalya {
     background-image: url(../img/antalya/antalya.png);
 }
-.heder_aspendos{
-    background-image: url(../img/aspendos/aspendos.png) ;
+
+.heder_aspendos {
+    background-image: url(../img/aspendos/aspendos.png);
 }
-.heder_manavgat{
+
+.heder_manavgat {
     background-image: url(../img/sidemanavgat/manavgat.png)
+}
+
+.heder_koja {
+    background-image: url(../img/koja/koja.png);
 }
