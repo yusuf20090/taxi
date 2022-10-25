@@ -2,8 +2,14 @@
     .aboutmi__elements img {
         width: 100%;
     }
+    .galery__swiper{
+        width: 100%;
+    }
 
     .aboutmi__elements p {
         width: 100%;
+    }
+    h1{
+        font-size: 15vw;
     }
 }

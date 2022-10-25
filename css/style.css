@@ -33,20 +33,40 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px 16px;
     gap: 5vh;
 }
-.nav__curtuan .nav__logo{
+
+.nav__curtuan .nav__logo {
     width: 15vh;
     height: 15vh;
+    align-self: center;
 }
-.nav__curtuan h2{
-    font-size: 20vh;
+
+.nav__curtuan h2 {
+    font-size: 10vh;
+    align-self: center;
 
 }
-.nav__curtuan a{
-    font-size: 5vh;
+
+.nav__curtuan p {
+    font-size: 3vh;
+    text-align: center;
+    line-height: 150%;
+}
+
+.nav__curtuan a {
+    font-size: 3vh;
     color: #FED700;
     text-decoration: underline;
+    text-decoration: none;
+
+}
+.nav__curtuan .whatsapp{
+    color: white;
+    background-color: #37b764;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .nav__curtuan_show {
@@ -274,7 +294,8 @@ h2 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    padding-left: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .swiper-slide img {
@@ -302,8 +323,10 @@ footer {
 
 
 .footer__elements a {
-    color: #FED700;
-
+    color: white;
+    background-color: #37b764;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .footer__logo {
@@ -397,8 +420,8 @@ footer {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    color: #FED700;
-    background-color: #000000;
+    color: 7;
+    background-color: #FED700;
     padding: 17px 20px;
     border-radius: 8px;
     margin: auto;
@@ -406,11 +429,12 @@ footer {
     max-width: 300px;
     text-align: center;
     transition: 0.5s;
+    border: 1px solid #FED700;
 }
 
 .massage:hover {
-    background-color: #FED700;
-    color: #000;
+    background-color: #000000;
+    color: #FED700;
 
 }
 
@@ -433,4 +457,13 @@ footer {
 
 .heder_koja {
     background-image: url(../img/koja/koja.png);
+}
+.heder_altdüden{
+background-image: url(../img/altdüden/altdüden.png);
+}
+.heder_kurşunlu{
+background-image: url(../img/kurşunlu/kurşunlu.png);
+}
+.heder_köprülükanyonu{
+    background-image: url(../img/köprülükanyon/köprülükanyon.png);
 }
