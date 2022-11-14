@@ -62,7 +62,8 @@ html {
     text-decoration: none;
 
 }
-.nav__curtuan .whatsapp{
+
+.nav__curtuan .whatsapp {
     color: white;
     background-color: #37b764;
     padding: 8px;
@@ -145,13 +146,7 @@ header {
     overflow: hidden;
 }
 
-header.heder_alanya {
-    background-image: url(../img/alanya\ header.png);
-}
 
-header.heder_belek {
-    background-image: url(../img/belek/belek.png);
-}
 
 h1 {
     color: #FED700;
@@ -296,10 +291,35 @@ h2 {
     transform: translateX(-50%);
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 30px;
+}
+
+.ways {
+    text-align: center;
 }
 
 .swiper-slide img {
     width: 100%;
+}
+
+.prise-list {
+    background-color: #FED700;
+    padding: 20px 40px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.5s;
+    border: 1px solid#000000;
+
+}
+
+.prise-list:hover {
+    background-color: #000000;
+    color: #FED700;
+    border: 1px solid#FED700;
 }
 
 section {
@@ -458,12 +478,118 @@ footer {
 .heder_koja {
     background-image: url(../img/koja/koja.png);
 }
-.heder_altdüden{
-background-image: url(../img/altdüden/altdüden.png);
+
+.heder_altdüden {
+    background-image: url(../img/altdüden/altdüden.png);
 }
-.heder_kurşunlu{
-background-image: url(../img/kurşunlu/kurşunlu.png);
+
+.heder_kurşunlu {
+    background-image: url(../img/kurşunlu/kurşunlu.png);
 }
-.heder_köprülükanyonu{
+
+.heder_koprulu {
     background-image: url(../img/köprülükanyon/köprülükanyon.png);
+}
+
+.heder_pamukkale {
+    background-image: url(../img/pamukkale/Pamukkale.jpg);
+}
+
+.heder_hayvanatbahçesi {
+    background-image: url(../img/hayvanatbahçesi/hayvanatbahçesi.jpg);
+}
+.heder_ulupınar{
+    background-image: url();
+}
+
+.heder_kemer {
+    background-image: url(../img/kemer/kemer.jpg);
+}
+.heder_demre{
+    background-image: url(../img/demre/demre.png);
+}
+.heder_kemerkanatyolu{
+    background-image: url();
+}
+.heder_konyaltıkanatyolu{
+    background-image: url();
+}
+.heder_pazarlara{
+    background-image: url();
+}
+
+.heder_lentoflegends {
+    background-image: url(../img/lentoflegends/lentoflegends.png);
+}
+
+header.heder_alanya {
+    background-image: url(../img/alanya/alanya\ header.png);
+}
+.heder_demre
+
+header.heder_belek {
+    background-image: url(../img/belek/belek.png);
+}
+header.header_eror{
+    text-align: center;
+    background-image: none;
+    background-color: #FFFFFF;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10vh 16px 0px 16px;
+}
+
+
+.heder_prise_list {
+    background-image: url(../img/prise_list_bg.png);
+}
+
+.prise__item {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.prise__item:nth-child(odd){
+    background-color: rgb(98, 98, 98);
+}
+.prise__item div {
+    flex-grow: 1;
+    font-size: 24px;
+    width: 24%;
+    min-width: 260px;
+    padding: 4px;
+}
+.prise__item div:nth-child(1){
+    text-align: left;
+}
+.prise__item hr{
+    width: 1px ;
+    height: 36px;
+    background-color: #000;
+    display: block;
+}
+
+.prise__list .prise__head {
+    background-color: #FED700;
+    color: #000;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+.prise__list .prise__head div:nth-child(1){
+    text-align: center;
+}
+
+
+
+
+
+.prise__item hr {
+    
 }
