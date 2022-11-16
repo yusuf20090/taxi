@@ -1,0 +1,21 @@
+@media(max-width: 500px) {
+    .aboutmi__elements img {
+        width: 100%;
+    }
+    .galery__swiper{
+        width: 100%;
+    }
+
+    .aboutmi__elements p {
+        width: 100%;
+    }
+    h1{
+        font-size: 15vw;
+    }
+    .prise__item i{
+        display: inline-block;
+    }
+    .prise__item div{
+        border-bottom: 1px solid #000;
+    }
+}
