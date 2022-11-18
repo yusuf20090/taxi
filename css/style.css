@@ -262,6 +262,13 @@ h2 {
     margin-bottom: 32px;
 }
 
+h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+
 .aboutmi__elements {
     display: flex;
     align-items: center;
@@ -363,6 +370,7 @@ footer {
 
 }
 
+
 .nav__back span {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
@@ -372,6 +380,10 @@ footer {
 .galery__swiper {
     width: 80%;
     overflow: visible;
+}
+
+.galery__item {
+    padding: 20px 0px;
 }
 
 .galery__swiper .swiper-slide img {
@@ -491,6 +503,10 @@ footer {
     background-image: url(../img/köprülükanyon/köprülükanyon.png);
 }
 
+.heder_havalimanı {
+    background-image: url(../img/havalimanı/havalimanı.png);
+}
+
 .heder_pamukkale {
     background-image: url(../img/pamukkale/Pamukkale.jpg);
 }
@@ -498,7 +514,8 @@ footer {
 .heder_hayvanatbahçesi {
     background-image: url(../img/hayvanatbahçesi/hayvanatbahçesi.jpg);
 }
-.heder_üstdüden{
+
+.heder_üstdüden {
     background-image: url(../img/üstdüden/üstdüden.jpg);
 }
 
@@ -534,6 +551,10 @@ header.heder_alanya {
     background-image: url(../img/alanya/alanya\ header.png);
 }
 
+.heder_akvariyum {
+    background-image: url(../img/akvarium/akvaryum.jpg);
+}
+
 .heder_demre header.heder_belek {
     background-image: url(../img/belek/belek.png);
 }
@@ -558,7 +579,8 @@ header.header_eror {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-
+    transition: 0.5s;
+    background-color: rgb(20, 20, 20);
 }
 
 
@@ -568,7 +590,7 @@ header.header_eror {
 }
 
 .prise__item:nth-child(even) div {
-   border-color:  rgb(233, 234, 235);
+    border-color: rgb(233, 234, 235);
 }
 
 .prise__item div {
@@ -606,6 +628,10 @@ header.header_eror {
     position: static;
     top: 0;
 }
+.prise__list .prise__head:hover{
+    transform: scale(100%);
+    box-shadow: none;
+}
 
 .prise__list .prise__head div:nth-child(1) {
     text-align: center;
@@ -623,9 +649,20 @@ header.header_eror {
 .prise__list {
     position: relative;
 }
-.prise__item a{
-    color:  rgb(233, 234, 235);
+
+.prise__item a {
+    color: rgb(233, 234, 235);
     text-decoration: underline;
+    transition: 0.5s;
+}
+
+.prise__item a:hover {
+    color: #FED700;
+}
+
+.prise__item:hover {
+    transform:scale(101%,120%);
+    box-shadow: 0 0 16px;
 }
 
 
