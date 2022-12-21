@@ -6,6 +6,15 @@ hamburger.onclick = function () {
 }
 
 const swiper = new Swiper('.ways__list', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+    },
     slidesPerView: 2.5,
     spaceBetween: 16,
     breakpoints: {
@@ -27,6 +36,6 @@ const swiper = new Swiper('.ways__list', {
         900: {
             slidesPerView: 6.5,
         }
-        
+
     }
 });
