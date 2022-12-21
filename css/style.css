@@ -298,7 +298,8 @@ h3 {
     transform: translateX(-50%);
     padding-left: 16px;
     padding-right: 16px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    overflow: visible;
 }
 
 .ways {
@@ -452,7 +453,7 @@ footer {
     font-weight: 700;
     font-size: 20px;
     line-height: 25px;
-    color: 7;
+    color: #000000;
     background-color: #FED700;
     padding: 17px 20px;
     border-radius: 8px;
@@ -462,12 +463,61 @@ footer {
     text-align: center;
     transition: 0.5s;
     border: 1px solid #FED700;
+    position: relative;
 }
 
 .massage:hover {
     background-color: #000000;
     color: #FED700;
 
+}
+
+.massage__links {
+    padding: 8px;
+    background-color: #FED700;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    gap: 8px;
+    bottom: 100%;
+    border-radius: 8px 8px 8px 8px;
+    transform: translate(-50%, 0) scale(0);
+    transform-origin: center bottom;
+    transition: 0.5s;
+    width: max-content;
+
+}
+
+.massage__links span {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    color: #FED700;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+    transform: translate(50%, -50%);
+    z-index: 5;
+    cursor: pointer;
+    border: 1px solid #FED700;
+    cursor: pointer;
+}
+
+.massage__links_active {
+    transform: translate(-50%, 0) scale(100%);
+}
+
+.massage__links a {
+    color: #000000;
+    display: inline;
+    border-bottom: 1px solid #000000;
+    padding: 8px 16px;
 }
 
 .footer__elements p {
@@ -555,7 +605,7 @@ header.heder_alanya {
     background-image: url(../img/akvarium/akvaryum.jpg);
 }
 
-.heder_demre header.heder_belek {
+.heder_belek {
     background-image: url(../img/belek/belek.png);
 }
 
@@ -628,7 +678,8 @@ header.header_eror {
     position: static;
     top: 0;
 }
-.prise__list .prise__head:hover{
+
+.prise__list .prise__head:hover {
     transform: scale(100%);
     box-shadow: none;
 }
@@ -661,8 +712,69 @@ header.header_eror {
 }
 
 .prise__item:hover {
-    transform:scale(101%,120%);
+    transform: scale(101%, 120%);
     box-shadow: 0 0 16px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: #FED700;
+
+}
+.swiper-button-prev{
+    animation: prevarrow 2s infinite;
+}
+.swiper-button-prev:hover{
+    animation-play-state: paused;
+}
+
+.swiper-button-next{
+    animation: nextarrow 2s infinite;
+
+}
+.swiper-button-next:hover{
+    animation-play-state: paused;
+}
+
+@keyframes nextarrow {
+    0% {
+        transform: translateX(-25px);
+    }
+
+    40% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(-25px);
+    }
+}
+@keyframes prevarrow{
+    0% {
+        transform: translateX(25px);
+    }
+
+    40% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(25px);
+    }
+}
+
+.swiper-pagination {
+    transform: translate(0, 40px);
+}
+
+.swiper-pagination-bullet {
+    border: 1px solid #FED700;
+    opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+    border: 1px solid #FED700;
+    background-color: #FED700;
 }
 
 
